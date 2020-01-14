@@ -1,0 +1,15 @@
+2020-01-15 00:05:39,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting SimpleCalculatorControllerIntegrationTest on mohammad-TP301UJ with PID 30548 (started by mohammad in /home/mohammad/Downloads/claculator)
+2020-01-15 00:05:39,819 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 00:05:39,830 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-15 00:05:42,269 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-01-15 00:05:42,441 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-01-15 00:05:42,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-15 00:05:43,056 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-01-15 00:05:43,058 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-01-15 00:05:43,078 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 19 ms
+2020-01-15 00:05:43,118 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-01-15 00:05:43,156 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-01-15 00:05:43,201 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-01-15 00:05:43,412 INFO org.springframework.boot.StartupInfoLogger [main] Started SimpleCalculatorControllerIntegrationTest in 4.249 seconds (JVM running for 6.006)
+2020-01-15 00:05:43,791 DEBUG com.code.challenge.calculator.controller.v1.SimpleCalculatorController [main] sth is calledcom.code.challenge.calculator.dto.request.SimpleOperationCommandDTO@6d0290d8
+2020-01-15 00:05:43,859 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

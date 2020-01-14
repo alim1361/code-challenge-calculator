@@ -1,12 +1,14 @@
 package com.code.challenge.calculator.service;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ScientificCalculatorService {
 
 
-    public long factorial(Double a) {
+    @Cacheable("factorial")
+    public long factorial(double a) {
         if (a % 1 != 0 || a < 0)
             throw new IllegalArgumentException("value is invalid");
         long factorial = 1l;
@@ -16,11 +18,12 @@ public class ScientificCalculatorService {
 
     }
 
-    public Double square(Double a) {
+    public Double square(double a) {
         return Math.sqrt(a);
     }
 
-    public boolean isPrime(Double a) {
+    @Cacheable("isPrime")
+    public boolean isPrime(double a) {
         if (a % 1 != 0 || a < 0)
             throw new IllegalArgumentException("value is invalid");
         for (long l = 2; l < a / 2; l++) {

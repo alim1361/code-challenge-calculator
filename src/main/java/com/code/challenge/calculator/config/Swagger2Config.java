@@ -26,7 +26,7 @@ public class Swagger2Config {
     private ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder().title("Calculator REST API")
                 .description("Calculator")
-                .contact(new Contact("Ali Morshedian", "", "ali.morshedian@gmail.com"))
+                .contact(new Contact("Ali Morshedian", "", "alimorshedian2003@yahoo.com"))
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
                 .version("1.0.0")

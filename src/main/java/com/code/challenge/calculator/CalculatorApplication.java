@@ -14,7 +14,7 @@ public class CalculatorApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CalculatorApplication.class, args);
-        LOGGER.info("System has started");
+        LOGGER.info("System has been started");
     }
 
 }

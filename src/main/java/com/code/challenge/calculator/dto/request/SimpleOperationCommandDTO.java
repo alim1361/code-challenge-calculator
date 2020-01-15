@@ -34,4 +34,13 @@ public class SimpleOperationCommandDTO implements Serializable {
     public void setOperation(SimpleOperation operation) {
         this.operation = operation;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "firstOperator=" + firstOperator +
+                ", secondOperator=" + secondOperator +
+                ", operation=" + operation +
+                '}';
+    }
 }

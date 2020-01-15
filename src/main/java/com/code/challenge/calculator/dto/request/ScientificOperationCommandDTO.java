@@ -25,4 +25,12 @@ public class ScientificOperationCommandDTO implements Serializable {
     public void setOperation(ScientificOperation operation) {
         this.operation = operation;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "operator=" + operator +
+                ", operation=" + operation +
+                '}';
+    }
 }
